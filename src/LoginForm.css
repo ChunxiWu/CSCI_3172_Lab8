@@ -1,0 +1,62 @@
+.cyberpunk-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Add some padding */
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: #00ffcc;
+    font-family: 'Press Start 2P', cursive; /* Futuristic font */
+  }
+  
+  .cyberpunk-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px; /* Increase internal padding for the form */
+    border: 3px solid #00ffcc;
+    border-radius: 10px;
+    width: 350px; /* Adjust width to provide more space for input fields */
+    max-width: 90vw; /* Ensure it doesn't overflow on smaller screens */
+  }
+  
+  .cyberpunk-form h2 {
+    text-align: center;
+    color: #ff00ff;
+    margin-bottom: 20px;
+  }
+  
+  .cyberpunk-form label {
+    color: #00ffcc;
+  }
+  
+  .cyberpunk-form input,
+  .cyberpunk-form select {
+    width: 90%;
+    padding: 10px; /* Add padding to make input fields look more spacious */
+    margin: 12px 0; /* Adjust vertical spacing to prevent overcrowding */
+    background: #333;
+    color: #00ffcc;
+    border: 2px solid #ff00ff;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px; /* Increase button height to make it more prominent */
+    background: #ff00ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #00ffcc;
+    color: #000;
+  }
+  
+  .error {
+    color: #ff0033;
+    font-size: 12px;
+  }
